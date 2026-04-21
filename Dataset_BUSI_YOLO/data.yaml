@@ -1,0 +1,7 @@
+path: "/Users/kacperciesla/Documents/Studia/G\u0142e\u0328bokie uczenie maszynowe/neural_networks/Dataset_BUSI_YOLO"
+train: images/train
+val: images/val
+test: images/test
+names:
+- benign
+- malignant
