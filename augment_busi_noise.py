@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+.ven#!/usr/bin/env python3
 """Create a noisy duplicated BUSI dataset for class folders.
 
 The script reads images from class directories (benign/malignant/normal),
