@@ -1,34 +1,27 @@
-# Deep learning
+# Requires Python 3.10.x
+
+# Core deep learning
 torch==2.11.0
 torchvision==0.26.0
 
-# YOLO / detection
+# Detection
 ultralytics==8.4.40
 
-# Segmentation
-segmentation-models-pytorch
-albumentations
-segment-anything
+# Explainability
+grad-cam
 
-# Image processing
-opencv-python==4.13.0.92
-Pillow==12.2.0
-
-# Data & analysis
+# Data and images
 numpy==2.4.4
 pandas
 scikit-learn==1.8.0
-scipy==1.17.1
+opencv-python==4.13.0.92
+Pillow==12.2.0
+PyYAML==6.0.3
 
 # Visualisation
 matplotlib==3.10.8
 seaborn
 
-# Utilities
+# Notebook/runtime utilities
 tqdm
-requests==2.33.1
-PyYAML==6.0.3
-pdfplumber==0.11.9
-
-# Jupyter
 ipykernel==7.2.0
